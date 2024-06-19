@@ -10,6 +10,6 @@
 
 ### Shell Variables [Finished]
 
-### Chaining Commands
+### Chaining Commands [Finished]
 
 ### Processes and Jobs
