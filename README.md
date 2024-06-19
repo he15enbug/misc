@@ -4,7 +4,7 @@
 
 ## [Linux Luminarium](https://pwn.college/linux-luminarium/)
 
-### File Globbing [4/6]
+### File Globbing [Finished]
 
 ### Piping
 
