@@ -6,7 +6,7 @@
 
 ### File Globbing [Finished]
 
-### Piping
+### Piping [Finished]
 
 ### Shell Variables
 
