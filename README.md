@@ -8,7 +8,7 @@
 
 ### Piping [Finished]
 
-### Shell Variables
+### Shell Variables [Finished]
 
 ### Chaining Commands
 
