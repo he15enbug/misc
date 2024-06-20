@@ -38,6 +38,17 @@
 
 ## Killing Processes
 
+- Kill the process of `/challenge/dont_run` before running `/challenge/run`
+
+    ```shell
+    $ ps aux | grep dont_run
+    hacker        64  0.0  0.0   4124  3000 ?        Ss   05:48   0:00 /challenge/dont_run
+    hacker       473  0.0  0.0   3304   720 pts/0    S+   05:48   0:00 grep --color=auto dont_run
+    $ kill 64 && /challenge/run
+    Great job! Here is your payment:
+    pwn.college{*}
+    ```
+
 ## Interrupting Processes
 
 ## Suspending Processes
