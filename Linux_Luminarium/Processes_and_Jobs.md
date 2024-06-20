@@ -51,7 +51,11 @@
 
 ## Interrupting Processes
 
+- `Ctrl+C`
+
 ## Suspending Processes
+
+- `Ctrl+Z`
 
 ## Resuming Processes
 
