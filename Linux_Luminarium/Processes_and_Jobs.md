@@ -59,6 +59,10 @@
 
 ## Resuming Processes
 
+- The `fg` (foreground) command can resume a suspended process
+- Specify which job to resume: `fg %1`. If we use it without specifying a job number, it will bring the most recently suspended job to the foreground
+- `Ctrl+Z`, then `$ fg`
+
 ## Backgrounding Processes
 
 ## Foregrounding Processes
