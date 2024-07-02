@@ -65,6 +65,14 @@
 
 ## Backgrounding Processes
 
+- We can use `ps -o user,pid,stat,cmd` to check for the status of process
+- For this challenge: `/challenge/run`, `Ctrl+Z` (suspend the challenge program, status `T`, suspended), `bg` (background it, status `S`, sleeping), then run another instance of it `/challenge/run`
+
 ## Foregrounding Processes
 
+- `fg` can foreground a backgrounded process, just like how it foreground a suspended process
+- `/challenge/run`, `Ctrl+Z`, `bg`, then `fg`
+
 ## Starting Backgrounded Processes
+
+- We don't have to suspend (`Ctrl+Z`) processes to background them: we can start the backgrounded right off the bat: append a `&` to the command, e.g., `/challenge/run &`
