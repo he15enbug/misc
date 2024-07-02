@@ -13,3 +13,5 @@
 ### Chaining Commands [Finished]
 
 ### Processes and Jobs [Finished]
+
+### Perceiving Permissions [Finished]
